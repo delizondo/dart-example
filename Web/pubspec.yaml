@@ -1,0 +1,22 @@
+name: Web
+description: A web app that uses AngularDart Components
+# version: 1.0.0
+# homepage: https://www.example.com
+# author: david <email@example.com>
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
+dependencies:
+  angular: ^5.0.0
+  angular_components: ^0.9.1
+  angular_forms: ^2.0.0
+  firebase: ^5.0.1
+  build_config: ^0.3.1+2
+
+dev_dependencies:
+  angular_test: ^2.0.0
+  build_runner: ^0.10.0
+  build_test: ^0.10.3+1
+  build_web_compilers: ^0.4.3
+  test: ^1.3.0
