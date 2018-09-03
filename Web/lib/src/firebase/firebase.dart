@@ -21,7 +21,7 @@ class FirebaseService {
   init() {
     databaseRef.onChildAdded.listen((e) {
       var item = Note.fromDataSnapshot(e.snapshot);
-      notes.add(item);
+      notes.insert(0, item);
     });
 
     databaseRef.onChildRemoved.listen((e) {
